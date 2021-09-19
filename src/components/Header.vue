@@ -4,9 +4,12 @@
 
 <script>
 export default {
+    props:[
+        'title',
+    ],
     data(){
         return {
-            title:"This is header."
+            
         }
     }
 }

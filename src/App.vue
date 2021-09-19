@@ -1,16 +1,20 @@
 <template>
   <h3>Vue 3 CLI Project</h3>  
-  <Header></Header>
+  <Header title="This is from props." />
+      <Circle color="blue" />
+  <Circle color="red"/>
 </template>
 
 <script>
 
-import Header from './components/Header.vue'
+import Header from './components/Header';
+import Circle from './components/Circle.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
+    Circle,
   }
 }
 </script>
